@@ -44,9 +44,6 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
-ol, ul {
-    list-style: none;
-}
 blockquote, q {
     quotes: none;
 }
@@ -89,17 +86,12 @@ img.float_right {
     margin: 10px 0 30px 40px;
 }
 
-li { 
-    list-style: none; /* Remove bullets on lists */
+ul, ol {
+	margin-left: 20px;
 }
 
 a, a:visited {
     color: #000;
-    text-decoration: none;
-    -webkit-transition:color .25s ease-in-out;
-    -moz-transition:color .25s ease-in-out;
-    -o-transition:color .25s ease-in-out;
-    transition:color .25s ease-in-out;
 }
 
 a:hover {
@@ -107,10 +99,9 @@ a:hover {
 }
 
 hr {
-    width: 50%;
-    height: 6px;
+    height: 1px;
     display: block;
-    background: #eee;
+    background: #ddd;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -388,6 +379,7 @@ header nav ul li a, header nav ul li a:visited, header nav ul li.search {
     cursor: pointer;
     position: relative;
     top: -5px;
+		text-decoration: none !important;
 }
 
 header nav ul li a:hover, header nav ul li.search:hover {
@@ -489,7 +481,10 @@ section .post_date {
     -o-transition:color .25s ease-in-out;
     transition:color .25s ease-in-out;
 }
-section .post_date a { color: #d7d7d7; }
+section .post_date a { 
+	color: #d7d7d7; 
+	text-decoration: none;
+}
 
 section .post_date a:hover {
     color: #ff6644;
@@ -498,6 +493,10 @@ section .post_date a:hover {
 section .post_title {
     margin-bottom: 30px;
     max-width: 80%;
+}
+
+section .post_title a {
+	text-decoration: none;
 }
 
 section .post_intro {
