@@ -330,10 +330,6 @@ button, .btn, .form-submit input {
 }
 
 button:hover, .btn:hover, .form-submit input:hover {
-    -webkit-transition:all .25s ease-in-out;
-    -moz-transition:all .25s ease-in-out;
-    -o-transition:all .25s ease-in-out;
-    transition:all .25s ease-in-out; 
     opacity: 0.8;
 }
 
@@ -397,10 +393,6 @@ header nav ul li a, header nav ul li a:visited, header nav ul li.search {
 
 header nav ul li a:hover, header nav ul li.search:hover {
     color: #fff;
-    -webkit-transition:color .25s ease-in-out;
-    -moz-transition:color .25s ease-in-out;
-    -o-transition:color .25s ease-in-out;
-    transition:color .25s ease-in-out;
     border: 0;
 }
 
@@ -489,10 +481,6 @@ section .post_date {
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
-    -webkit-transition:color .25s ease-in-out;
-    -moz-transition:color .25s ease-in-out;
-    -o-transition:color .25s ease-in-out;
-    transition:color .25s ease-in-out;
 }
 section .post_date a { 
 	color: #d7d7d7; 
@@ -557,10 +545,6 @@ section button, section .btn {
 section.format-quote {
     background: #f6f4ee;
     padding: 80px 80px 60px 200px;
-    -webkit-transition:all .25s ease-in-out;
-    -moz-transition:all .25s ease-in-out;
-    -o-transition:all .25s ease-in-out;
-    transition:all .25s ease-in-out;
 }
 
 section.format-quote p {
@@ -568,10 +552,6 @@ section.format-quote p {
     line-height: 48px;
     margin-bottom: 0;
     text-align: right;
-    -webkit-transition:all .25s ease-in-out;
-    -moz-transition:all .25s ease-in-out;
-    -o-transition:all .25s ease-in-out;
-    transition:all .25s ease-in-out;
 }
 
 section.format-quote .author {
@@ -580,10 +560,6 @@ section.format-quote .author {
     font-size: 16px;
     text-transform: uppercase;
     color: #bbb;
-    -webkit-transition:all .25s ease-in-out;
-    -moz-transition:all .25s ease-in-out;
-    -o-transition:all .25s ease-in-out;
-    transition:all .25s ease-in-out;
 }
 
 section.format-quote:hover {
