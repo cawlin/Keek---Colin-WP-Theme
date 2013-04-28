@@ -147,6 +147,19 @@ label {
     line-height: 1;
 }
 
+table {
+	margin-bottom: 30px;
+}
+
+th,td {
+	border: 1px solid #333;
+	padding: .5em;
+}
+th {
+	font-weight: bold;
+	background-color: #efefef;
+}
+
 /* --------------------------------------------------------------
 WordPress Elements
 -------------------------------------------------------------- */
