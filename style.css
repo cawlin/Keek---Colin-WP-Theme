@@ -88,6 +88,7 @@ img.float_right {
 
 ul, ol {
 	margin-left: 20px;
+	margin-bottom: 30px;
 }
 
 a, a:visited {
@@ -614,7 +615,8 @@ blockquote {
 Metadata
 -------------------------------------------------------------- */
 .metadata {
-    padding: 20px 0;
+    padding: 0 0 30px 0;
+	border-bottom: 1px solid #ddd;
 }
 
 .metadata span {
@@ -639,7 +641,7 @@ Comments
 }
 
 .comments h5 {
-    margin: 60px 0 30px 0;
+    margin: 30px 0 30px 0;
 }
 
 .comment .avatar {
@@ -674,6 +676,11 @@ Comments
 
 .commentlist {
     margin-bottom: 50px;
+	margin-left: 0;
+}
+
+.commentlist li {
+	list-style: none;
 }
 
 .commentlist ul {
@@ -681,6 +688,7 @@ Comments
 }
 
 /* Comment form */
+
 #commentform h3 {
     text-transform: uppercase;
     color: #aaa;
